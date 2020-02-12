@@ -5,7 +5,7 @@ import calendar
 import datetime
 import gc
 
-LOGFILE_PATH = '/mnt/d/aptest/Apache24/logs/'
+LOGFILE_PATH = '/var/log/httpd/'
 
 def log_split(input_log):
     cell = re.compile(r'".+"')
